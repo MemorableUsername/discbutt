@@ -1,3 +1,4 @@
 [submodule "butter"]
 	path = butter
-	url = https://github.com/dentist/butter
+	url = https://github.com/nikolas/butter.git
+	branch = python3
