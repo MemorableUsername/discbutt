@@ -8,3 +8,4 @@ packaging==16.8
 pyparsing==2.2.0
 six==1.10.0
 websockets==3.3
+-e git://github.com/MemorableUsername/butter#egg=butter3

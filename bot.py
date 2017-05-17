@@ -21,7 +21,7 @@ async def butt(*args):
 @bot.event
 async def on_message(message):
     if message.author != bot.connection.user: # prevent the bot from triggering itself with random responses
-        if message.clean_content[0] == command_prefix:
+        if message.clean_content[0] == c['command_prefix']:
             return await bot.process_commands(message)
         else:
             if random.random() < c['response_rate']:
@@ -31,7 +31,7 @@ async def on_message(message):
 async def debutt(*args):
     """.debutt <text> -- provides debug butting info for a line of text"""
 
-    result = 'response rate set at `' + str(response_rate) + '/1.0`'
+    result = 'response rate set at `' + str(c['response_rate']) + '/1.0`'
 
     if args:
         message = ' '.join(args)
