@@ -11,6 +11,7 @@ I recommend making a virtualenv and activating it. Remember to make sure it's a 
 
 ```
 git clone https://github.com/MemorableUsername/discbutt
+cd discbutt
 pip install -r requirements.txt
 ```
 
@@ -27,7 +28,7 @@ Once you've added the token, run the command again and the bot will launch.
 
 How to add the bot to your server
 =================================
-On a computer where you have logged into discord, open this link:
-https://discordapp.com/oauth2/authorize?client_id=[*YOUR BOT'S CLIENT ID HERE*]&scope=bot&permissions=0
+On a computer where you have logged into discord, add your bot's client ID into and then open this link:
+`https://discordapp.com/oauth2/authorize?client_id=[YOUR BOT'S CLIENT ID HERE]&scope=bot&permissions=0`
 
 If you have Manage Server permissions you'll be able to add your bot.
