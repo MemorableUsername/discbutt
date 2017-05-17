@@ -7,14 +7,18 @@ that.
 Installation
 ============
 
-I recommend making a virtualenv. Remember to make sure it's a Python3 virtualenv.
+I recommend making a virtualenv and activating it. Remember to make sure it's a Python3 virtualenv.
 
-```git clone --recursive https://github.com/MemorableUsername/discbutt
-pip install -r requirements.txt```
+```
+git clone https://github.com/MemorableUsername/discbutt
+pip install -r requirements.txt
+```
 
 Running
 =======
-```python bot.py```
+```
+python bot.py
+```
 
 The initial run will crash, but generate a file `config` in the cwd. Add your bot's user token to this. You *did* set
 up a discord bot user, didn't you?
